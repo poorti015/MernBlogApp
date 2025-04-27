@@ -1,0 +1,33 @@
+:root {
+    /* Colors from Figma styleguide */
+    --primary-color: #4F46E5;
+    --secondary-color: #10B981;
+    --text-dark: #1F2937;
+    --text-light: #6B7280;
+    --background: #F9FAFB;
+    --white: #FFFFFF;
+    
+    /* Typography from Figma */
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Playfair Display', serif;
+    
+    /* Spacing system */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+  }
+  
+  body {
+    font-family: var(--font-primary);
+    color: var(--text-dark);
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+  }
